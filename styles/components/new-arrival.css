@@ -1,0 +1,42 @@
+.new-arrival__background {
+  background-color: #424242;
+}
+
+.new-arrival {
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.new-arrival__img {
+  width: 113px;
+  height: 55px;
+
+  padding: 5px 0 5px 0;
+}
+
+.new-arrival__text {
+  margin-left: 30px;
+  padding: 10px 0 10px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.new-arrival__movie {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.new-arrival__movie--title {
+  color: #ffffff83;
+}
+
+.new-arrival__date {
+  font-size: 11px;
+  font-weight: 500;
+
+  color: #ffffff48;
+}
