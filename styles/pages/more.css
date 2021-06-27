@@ -1,0 +1,46 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/profile.css";
+@import "../components/share.css";
+@import "../components/settings.css";
+@import "../components/bottom-navbar.css";
+
+#animation {
+  animation-name: pageLoad;
+  animation-duration: 1000ms;
+}
+
+@keyframes pageLoad {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.profile {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.manage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.manage__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff81;
+  margin-left: 6px;
+}
+
+.settings {
+  margin-bottom: 81px;
+}
