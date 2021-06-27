@@ -17,3 +17,20 @@
     opacity: 1;
   }
 }
+
+.netflix {
+  width: 60%;
+  margin: 0 30%;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  margin-top: 13px;
+  margin-bottom: 128px;
+}
+
+.netflix__logo {
+  width: 138px;
+  height: 38px;
+}
